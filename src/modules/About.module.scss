@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+   
+    img {
+        height: 400px;
+        width: 350px;
+    }
+    .about-us
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h1
+        {
+            font-size: 50px;
+        }
+        p
+        {
+            font-size: 15px;
+        }
+        button {
+            width: 30%;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            color: blue;
+            background: blueviolet;
+        }
+    }
+}
